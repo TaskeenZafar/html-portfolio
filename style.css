@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(300deg, #ff1eb4, #910b7a, #f1ef4b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.navbar {
+  background: linear-gradient(300deg, #e60a1c, #484ea3, #fa351b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.style {
+  text-decoration: none;
+  color: white;
+}
+p {
+  color: white;
+}
